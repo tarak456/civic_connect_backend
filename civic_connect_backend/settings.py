@@ -134,3 +134,7 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+# CORS settings
+CORS_ALLOW_ALL_ORIGINS = True
+
